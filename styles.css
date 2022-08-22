@@ -1,0 +1,69 @@
+
+.nav li {
+    display: inline;
+    text-align: center;
+    position: sticky;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+body {
+    background-image: url(./resources/BlueWhiteMixWatermarked.jpg)
+}
+
+.head {
+    color: aqua;
+    display: block;
+    text-align: center;
+}
+
+thead {
+    text-align: center;
+}
+
+table {
+    width: 750px;
+    height: 200px;
+    position: relative;
+    position: inline-block;
+    left: 385px;
+    background-color: khaki;
+}
+
+.tags {
+    font-size: 24px;
+    text-align: left;
+    font-family: sans-serif;
+    bottom: 20px;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+.attributes {
+    font-size: 24px;
+    top: 20px;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 24px;
+}
+
+#tag {
+    font-weight: bold;
+    color: black;
+}
+
+#tag-name, #tag-description {
+    color: blue;
+}
+
+#attribute {
+    font-weight: bold;
+    color: black;
+}
+
+#attribute-name, #attribute-description {
+    color: blue;
+}
